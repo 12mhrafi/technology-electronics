@@ -1,4 +1,4 @@
-This is a electronics and technology based website for providing brands product and those services.Here are five features of this product-
+This is an electronics and technology based website for providing brands product and those services.Here are five features of this website-
 - Login and registration system using firebase .
 - Without login user can't access to see product based details product.
 - Using mongoDB to add product and get product.
