@@ -2,13 +2,13 @@
     {
       "id":1,
       "brand": "Apple",
-      "image": "https://i.ibb.co/GRYBz97/OIP-8.jpg"
+      "image": "https://i.ibb.co/nz7cspj/Apple-i-Phone-15-Pro-White-Titanium.webp"
     
     },
     {
       "id":2,
       "brand": "Samsung",
-      "image": "https://i.ibb.co/GRYBz97/OIP-8.jpg"
+      "image": "https://i.ibb.co/BjgvPrY/Samsung-Galaxy-A04e-jpg.webp"
     },
     {
         "id":3,
@@ -18,17 +18,17 @@
     {
         "id":4,
       "brand": "Google",
-      "image": "https://i.ibb.co/GRYBz97/OIP-8.jpg"
+      "image": "https://i.ibb.co/GT8QYfL/Google-Pixel-7-Pro-jpg.webp"
     },
     {
         "id":5,
       "brand": "Intel",
-      "image": "https://i.ibb.co/GRYBz97/OIP-8.jpg"
+      "image": "https://i.ibb.co/txVSzCH/rpl-desktop-chip-angle-3-white-png-rendition-intel-web-1648-927.png"
     },
     {
         "id":6,
       "brand": "Sony",
-      "image": "https://i.ibb.co/GRYBz97/OIP-8.jpg"
+      "image": "https://i.ibb.co/Bs2kByk/assets-Asset-Hierarchy-Consumer-Assets-Mobile-Phones-Xperia-Series-Xperia-1-V-e-Comm-Product-Images.png"
     }
   ]
   

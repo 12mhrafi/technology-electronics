@@ -5,19 +5,30 @@ import BrandItemDetails from '../BrandItemDetails/BrandItemDetails';
 
 const BrandItem = () => {
     const [matching, setmatching] = useState([]);
+    console.log(matching)
+    const [notFound,setNotFound] = useState();
+    console.log(notFound)
    
     const { id } = useParams();
     const allBrands = useLoaderData();
     
     useEffect(() => {
         const filteredData = allBrands.filter(brand => brand.brandName.toLowerCase() === id.toLocaleLowerCase());
-        if(filteredData){
-            setmatching(filteredData)
+        console.log(typeof filteredData)
+        console.log(typeof [])
+        if(filteredData == null){
+            setNotFound("data not found");
+            return;
         }
+            setmatching(filteredData);
+        
+       
+      
         
     }, [])
 
-
+  
+ 
 
 
     return (
@@ -25,13 +36,18 @@ const BrandItem = () => {
   
     
             <h2 className='text-4xl font-semibold mb-10 text-center'>Brand Products </h2>
-            <div className='grid gap-10'>
+            {
+                
+
+                <div className='grid gap-10'>
 
                 {
-                    matching &&
+                   notFound ? <p>{notFound}</p> :
                     matching.map(match => <BrandItemDetails key={match._id} match={match}></BrandItemDetails>) 
                 }
             </div>
+            }
+          
 
         </div>
     )

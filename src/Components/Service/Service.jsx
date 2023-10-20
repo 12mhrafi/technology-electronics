@@ -12,7 +12,7 @@ const Service = () => {
             </div>
             <div className="grid gap-8 mt-10 md:grid-cols-3">
                 <div className='border'>
-                    <img className='w-full h-[300px] object-cover' src={"https://i.ibb.co/GRYBz97/OIP-8.jpg"} alt="" />
+                    <img className='w-full h-[300px] object-cover' src={"https://i.ibb.co/NpDFZnK/OIP-9.jpg"} alt="" />
                     <div className='flex  p-6 flex-col gap-4'>
                         <h4 className='text-2xl font-semibold'>Data Visualization</h4>
                         <p>Sed non odio non elit porttitor Donec fermentum, elit sit ame</p>
@@ -20,17 +20,17 @@ const Service = () => {
                     </div>
                 </div>
                 <div className='border'>
-                    <img className='w-full h-[300px] object-cover' src={"https://i.ibb.co/GRYBz97/OIP-8.jpg"} alt="" />
+                    <img className='w-full h-[300px] object-cover' src={"https://i.ibb.co/3Yd93FR/Google-Pixel-7a-jpg.webp"} alt="" />
                     <div className='flex  p-6 flex-col gap-4'>
-                        <h4 className='text-2xl font-semibold'>Data Visualization</h4>
+                        <h4 className='text-2xl font-semibold'>Mobile problems Solution</h4>
                         <p>Sed non odio non elit porttitor Donec fermentum, elit sit ame</p>
                         <a href="" className='flex items-center gap-2'>Read more <FaArrowRight></FaArrowRight> </a>
                     </div>
                 </div>
                 <div className='border'>
-                    <img className='w-full h-[300px] object-cover' src={"https://i.ibb.co/GRYBz97/OIP-8.jpg"} alt="" />
+                    <img className='w-full h-[300px] object-cover' src={"https://i.ibb.co/txVSzCH/rpl-desktop-chip-angle-3-white-png-rendition-intel-web-1648-927.png"} alt="" />
                     <div className='flex  p-6 flex-col gap-4'>
-                        <h4 className='text-2xl font-semibold'>Data Visualization</h4>
+                        <h4 className='text-2xl font-semibold'>Processor repairing</h4>
                         <p>Sed non odio non elit porttitor Donec fermentum, elit sit ame</p>
                         <a href="" className='flex items-center gap-2'>Read more <FaArrowRight></FaArrowRight> </a>
                     </div>

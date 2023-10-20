@@ -10,12 +10,12 @@ const About = () => {
         
                 <div className='grid gap-5 md:grid-cols-2 '>
                     <div>
-                        <img className='w-full h-auto object-cover' src={"https://i.ibb.co/GRYBz97/OIP-8.jpg"} alt="" />
+                        <img className='w-full h-auto object-cover' src={"https://i.ibb.co/c2qWqRc/R-5.jpg"} alt="" />
                     </div>
                     <div>
                         <h6 className='text-sm'>ABOUT US</h6>
                         <h2 className='text-4xl'>We Execute Our ideas From The Start to Finish</h2>
-                        <p className='my-5'>Web designing in a powerful way of just not an only professions, however, in a passion for our Company. We have to a tendency to believe the idea that smart looking of any website is the first impression on visitors</p>
+                        <p className='my-5'>At TechElectro, we are passionate about harnessing the power of technology to drive innovation and create a better tomorrow. Established in 2023, we have been at the forefront of the digital revolution, pioneering cutting-edge solutions that transform industries and improve lives.</p>
                         <div className='md:flex gap-2'>
                             <div className='flex flex-col gap-5'>
                                 <div>
