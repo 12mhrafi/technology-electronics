@@ -14,7 +14,7 @@ const BrandItemDetails = ({match}) => {
         <div className='md:w-[50%]'>
             <img className='w-full h-full object-cover' src={image} alt="" />
         </div>
-        <div className="flex gap-3 mt-6 md:mt-0 flex-col">
+        <div className="flex gap-3 mt-6 items-center md:items-start md:mt-0 flex-col">
              <h2 className='text-2xl'>{productName}</h2>
              <p>Brand: <span className='font-semibold'>{brandName}</span></p>
             <div className='flex items-center'>
@@ -27,7 +27,7 @@ const BrandItemDetails = ({match}) => {
             </div>
             <span className='ml-2 text-gray-500'>({rating})</span>
             </div>
-            <p className='text-3xl font-semibold'>${price}</p>
+            <p className='text-3xl font-semibold'>BDT:{price}</p>
          <div className='flex gap-3'>
          <Link to={`/productDetail/${_id}`}> <Button>Details</Button> </Link>
           <Link to={`/updateProudct/${_id}`}><Button >Update</Button></Link>

@@ -42,7 +42,7 @@ const ProductDetail = () => {
         <div className='md:w-[50%]'>
             <img className='w-full h-full object-cover' src={image} alt="" />
         </div>
-        <div className="flex gap-3 mt-6 md:mt-0 flex-col">
+        <div className="flex gap-3 mt-6 md:mt-0 flex-col items-center md:items-start">
              <h2 className='text-2xl'>{productName}</h2>
              <p>Brand: <span className='font-semibold'>{brandName}</span></p>
             <div className='flex items-center'>
@@ -55,8 +55,8 @@ const ProductDetail = () => {
             </div>
             <span className='ml-2 text-gray-500'>({rating})</span>
             </div>
-            <p className='text-3xl font-semibold'>${price}</p>
-            <p>{description.slice(0,30)}</p>
+            <p className='text-3xl font-semibold'>BDT:{price}</p>
+            <p>{description && description.slice(0,50)}</p>
           <Button onClick={()=>handleCart(singleData)}>Add to cart</Button>
         </div>
     </div>
