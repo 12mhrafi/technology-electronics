@@ -2,12 +2,12 @@ import React from 'react'
 import { Button, Card, DarkThemeToggle, Flowbite } from 'flowbite-react';
 
 const About = () => {
-  
+
     return (
 
-        <div className='mt-24'> 
+        <div className='mt-24'>
             <Card className='container shadow-none border-0 mx-auto px-4 dark:text-white'>
-        
+
                 <div className='grid gap-5 md:grid-cols-2 '>
                     <div>
                         <img className='w-full h-auto object-cover' src={"https://i.ibb.co/c2qWqRc/R-5.jpg"} alt="" />
@@ -36,12 +36,12 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-           
+
             </Card>
         </div>
-    
-    
-        
+
+
+
     )
 }
 
