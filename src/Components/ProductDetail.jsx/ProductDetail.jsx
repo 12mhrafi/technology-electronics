@@ -56,7 +56,7 @@ const ProductDetail = () => {
             <span className='ml-2 text-gray-500'>({rating})</span>
             </div>
             <p className='text-3xl font-semibold'>${price}</p>
-            <p>{description}</p>
+            <p>{description.slice(0,30)}</p>
           <Button onClick={()=>handleCart(singleData)}>Add to cart</Button>
         </div>
     </div>

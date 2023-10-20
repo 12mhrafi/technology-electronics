@@ -29,7 +29,7 @@ const BrandItemDetails = ({match}) => {
             </div>
             <p className='text-3xl font-semibold'>${price}</p>
          <div className='flex gap-3'>
-         <Link to={`/productDetail/${_id}`}><Button>Details</Button></Link>
+         <Link to={`/productDetail/${_id}`}> <Button>Details</Button> </Link>
           <Link to={`/updateProudct/${_id}`}><Button >Update</Button></Link>
 
          </div>

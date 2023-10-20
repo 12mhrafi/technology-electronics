@@ -6,3 +6,4 @@ This is an electronics and technology based website for providing brands product
 - Existing products all info can update and cart product delete functionality.
 
 project live link: https://technology-electronics-65785.web.app
+
