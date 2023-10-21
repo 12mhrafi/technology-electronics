@@ -61,7 +61,7 @@ const ProductDetail = () => {
         </div>
     </div>
       <div>
-        <h2 className='text-2xl mt-10'>Description</h2>
+      <h2 className='text-2xl mt-10'>Description</h2>
         <h4 className='mt-5 font-semibold'>Product Information</h4>
         <p className='mt-3'>{description}</p>
       </div>
