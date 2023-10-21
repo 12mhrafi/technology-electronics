@@ -22,22 +22,22 @@ const NavBar = () => {
     <NavLink
       to="/"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-blue-700 underline font-extrabold" : ""}> Home
+        isPending ? "pending" : isActive ? "text-blue-700 font-extrabold" : ""}> Home
     </NavLink>
     <NavLink
       to="/addProduct"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-blue-700 underline font-extrabold" : ""}> Add Product
+        isPending ? "pending" : isActive ? "text-blue-700  font-extrabold" : ""}> Add Product
     </NavLink>
     <NavLink
       to="/myCart"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-blue-700 underline font-extrabold" : ""}> My Cart
+        isPending ? "pending" : isActive ? "text-blue-700  font-extrabold" : ""}> My Cart
     </NavLink>
     <NavLink
       to="/login"
       className={({ isActive, isPending }) =>
-        isPending ? "pending" : isActive ? "text-blue-700 underline font-extrabold" : ""}> Login
+        isPending ? "pending" : isActive ? "text-blue-700  font-extrabold" : ""}> Login
     </NavLink>
     <DarkThemeToggle />
 
