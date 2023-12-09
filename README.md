@@ -5,5 +5,5 @@ This is an electronics and technology based website for providing brands product
 - User also can see their cart added product on the cart page.
 - Existing products all info can update and cart product delete functionality.
 
-project live link: https://dainty-gecko-6bc346.netlify.app
+project live link: https://6534e37e917348462a43f9ef--dainty-gecko-6bc346.netlify.app/
 
